@@ -8,41 +8,49 @@ using System.Threading.Tasks;
 
 namespace Game1377_Exercises
 {
-    class Excercise3
+   internal class Excercise3
+   {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Executing Main\n");
+            OutgoingStrings();
+            Arithmetic();
+            Assignment();
+            ComparisonAndConditionals();
+        }
+    static void OutgoingStrings()
     {
-        static void OugoingStrings()
-        {
-
-        }
-
-        static void Arithmetic()
-        {
-
-        }
-
-        static void Assignment()
-        {
-
-        }
-
-        static void ComparisonAndConditionals()
-        {
-
-        }
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
+
+    static void Arithmetic()
+    {
+
+    }
+
+    static void Assignment()
+    {
+
+    }
+
+    static void ComparisonAndConditionals()
+    {
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+   }
 
 
 

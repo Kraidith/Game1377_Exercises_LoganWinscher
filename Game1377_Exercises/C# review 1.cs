@@ -65,7 +65,7 @@ namespace Game1377_Exercises
 
         static void SingleLineMultipleVariables()
         {
-            // declzre multiple variables 
+            // declare multiple variables 
             int x = 1, y = 2, z = 3;
             Console.WriteLine("int i equal to " + "\n" +
                               "y is equal to " + "\n" +
@@ -93,7 +93,12 @@ namespace Game1377_Exercises
 
         static void GetUserName()
         {
-         
+            Console.WriteLine("Enter your name");
+            String? name = Console.ReadLine(); //nullable type
+            if(name != null)
+            {
+                Console.WriteLine("Your name is " + name);
+            }
         }
 
         static void ArthrimaticOperators()
@@ -124,13 +129,13 @@ namespace Game1377_Exercises
             addAssign += 2;  //same as addAssign = addAssign + 2;
 
             int subtractAssign = 3;
-            subtractAssign -=2;  //same as subtractAssign = subtractAssign - 2;
+            subtractAssign -= 2;  //same as subtractAssign = subtractAssign - 2;
 
             int multiplyAssign = 3;
-            multiplyAssign *=2;  
+            multiplyAssign *= 2;  
 
             int divideAssign = 3;
-            divideAssign /= 2; 
+            divideAssign /= 2; //why is this the answer? how can i get the decimal answer
         }
 
         static void IncrementAndDecrement()
@@ -141,4 +146,4 @@ namespace Game1377_Exercises
         {
 
         }
-}
+    }
